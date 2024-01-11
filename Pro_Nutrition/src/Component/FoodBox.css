@@ -1,4 +1,9 @@
+body{
+    background-color: grey;
+   
+}
 .box{
+    width: 100%;
     display: flex;
     align-items: center;
     width: 60%;
@@ -7,14 +12,40 @@
 }
 
 .media{
-    width: 60%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
 .field{
     display: flex;  
+}
+.foodSearch{
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+}
+input{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+
+.is-info{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.resetBtn{
+    width: 90px;
+    cursor: pointer;
+}
+img{
+    border-radius: 15px;
 }

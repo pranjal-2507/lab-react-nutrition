@@ -64,7 +64,7 @@ export default class FoodBox extends React.Component {
             </h2>
           </div>
           <div>
-            <button onClick={handleReset}>Reset</button>
+            <button className="resetBtn" onClick={handleReset}>Reset</button>
           </div>
         </div>
       </>

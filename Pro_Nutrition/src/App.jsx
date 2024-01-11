@@ -23,7 +23,7 @@ export default class App extends React.Component{
       <>
       <div>
     <div>
-      <input type="text" placeholder="Search Food here" onChange={handleChange} />
+      <input className="foodSearch" type="text" placeholder="Search Food here" onChange={handleChange} />
     </div>
 
         {newArr.map((el,i)=>(
